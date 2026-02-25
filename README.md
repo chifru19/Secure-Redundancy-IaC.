@@ -1,4 +1,5 @@
-# Secure-Redundancy-IaC
+* **Cisco Networking:** HSRP Redundancy, Routed Ports, and Interface Management.
+* **Infrastructure-as-Code (IaC):** Transforming manual CLI commands into repeatable Python scripts.
 
 ## Project Overview
 This project demonstrates an automated **DevSecOps pipeline** for securing Infrastructure as Code (IaC). 
