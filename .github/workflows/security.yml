@@ -1,0 +1,15 @@
+name: Security-Check
+on: [push]  # This triggers the action every time you upload code
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4 # Pulls your code into the scanner
+
+      - name: Install Security Tools
+        run: pip install bandit # Installs a "Security Guard" tool
+
+      - name: Scan Project for Weaknesses
+        run: bandit -r . # Checks your files for security errors
