@@ -1,0 +1,18 @@
+{
+  "infrastructure": "BWI-Redundancy-Lab",
+  "devices": [
+    {
+      "name": "Router2",
+      "role": "Core Gateway",
+      "ip_address": "192.168.10.1",
+      "interface": "GigabitEthernet0/0/1",
+      "status": "active"
+    },
+    {
+      "name": "Switch0",
+      "role": "Multilayer Switch",
+      "ip_address": "192.168.10.2",
+      "redundancy_protocol": "HSRP"
+    }
+  ]
+}
