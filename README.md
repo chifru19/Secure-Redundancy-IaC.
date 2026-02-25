@@ -2,7 +2,9 @@
 * **Infrastructure-as-Code (IaC):** Transforming manual CLI commands into repeatable Python scripts.
 ## Network Topology
 This project is based on a redundant Cisco infrastructure built in Packet Tracer. It features a triple-link redundancy between a core router and multilayer switches to ensure zero downtime.
-
+## Network Topology (Packet Tracer)
+This infrastructure uses triple-link redundancy to ensure high availability.
+![Physical Topology](./images/packet-tracer-topology.png)
 ![Network Topology](packet-tracer-topology.png)
 ## Project Overview
 This project demonstrates an automated **DevSecOps pipeline** for securing Infrastructure as Code (IaC). 
